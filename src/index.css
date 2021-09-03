@@ -12,6 +12,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background:#efefef;
 }
 
 code {
@@ -21,4 +23,65 @@ code {
 
 ul {
   list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.container {
+  max-width:500px;
+  margin:0 auto;
+}
+
+
+.tour {
+  margin:2rem 0;
+  background:#fff;
+  filter:drop-shadow(5px 5px 5px #33333321);
+}
+
+.tour__info__container {
+  width:90%;
+  margin:0 auto;
+}
+
+
+.heading {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+h2 {
+  font-size:1.25rem;
+  font-weight: 600;
+  margin-top:1rem;
+}
+
+h3 {
+  font-size:1.15rem;
+  font-weight: 500;
+  color:#3a75e4;
+}
+
+p {
+  margin:1rem 0;
+  line-height: 1.4;
+  color:#3d3d3d;
+}
+
+.not-intrested-btn {
+  margin-bottom:1rem;
+  position: relative;
+  left:50%;
+  transform: translateX(-50%);
+  font-size: 1.25rem;
+  padding:0.25rem 0.75rem;
+  background:none;
+  border:1px solid #BB2525;
+  color:#BB2525;
+  border-radius: 2px;
 }
